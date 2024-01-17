@@ -1,0 +1,89 @@
+@font-face {
+    font-family: all;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family: all;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to right,#ffd35f,#ffdb58,#ffde5a);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h3{
+    font-size: 24px;
+    color: #cf7105;
+    margin:  5px 0 10px 0; 
+}
+#uprav{
+    margin-top: 10px;
+}
+#tests {
+    width: 100%;
+    max-width: 80%;
+    background-color: #ffff99;
+    height: auto;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#quest {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#answers {
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+#answQuest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 6px 12px -2px;
+    background: #ffd35f;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+    margin: 7px;
+    cursor: pointer;
+}
+
+button[type=button]:hover{
+    transform: scale(1.05);
+}
+input[type="radio"]{
+    border: 1px solid #ffd35f;
+    width: 20px;
+    height: 20px;
+}
+label{
+    font-size: 20px;
+}
